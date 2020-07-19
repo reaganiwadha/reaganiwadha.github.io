@@ -1,0 +1,24 @@
+baseURL = "https://reaganiwadha.github.io/"
+languageCode = "en-us"
+title = "Regan Iwadha"
+theme = "hugo-theme-codex"
+
+[params]
+  github = "https://github.com/reaganiwadha"
+  # ...
+
+  iconTitles = ["Twitter", "GitHub"]
+
+  [[menu.main]]
+    identifier = "history"
+    name = "history"
+    title = "History"
+    url = "/history"
+
+    [[menu.main]]
+    identifier = "starred repos"
+    name = "starred repos"
+    title = "Starred Repos"
+    url = "/history"
+
+    
