@@ -1,4 +1,5 @@
 //github.com/reaganiwadha
+//ini js bisa di import bisa engga, situs nya tetep work cuma data nya ga dinamis aja 😄
 
 fetch('https://api.covid19api.com/total/country/indonesia/status/confirmed')
     .then(res => res.json())
