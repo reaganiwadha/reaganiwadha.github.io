@@ -1,0 +1,96 @@
+html, body{
+    background: rgba(100,20,20);
+    background-size: cover;
+    background-image: url('./assets/earth.jpg');
+    background-position: center;
+    background-blend-mode: overlay;
+    margin:0;
+}
+
+html, body > *{
+    color:white;
+}
+
+a{
+    font-weight: 700;
+    text-decoration: none;
+    color:firebrick;
+}
+
+*{
+    font-family: 'IBM Plex Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.nomargin{
+    margin:0!important;
+}
+
+header, footer{
+    display:flex;
+    justify-content: space-between;
+    margin:1em;
+    align-items: center;
+}
+
+.card > h3{
+    font-weight: 700;
+    color : rgb(50,203,50)
+}
+
+header > a{
+    color:red;
+    text-decoration: none;
+}
+
+#number{
+    font-size: 72pt;
+}
+
+.red{
+    color:rgb(250,30,50);
+}
+
+.white{
+    background-color: white;
+}
+
+.white > *{
+    color:black;
+}
+
+.footer{
+    position:sticky;
+    bottom:0;
+}
+
+.gray{
+    color:gray;
+}
+
+b{
+    font-weight: 700;
+}
+
+.center{
+    text-align: center;
+}
+
+.tall{
+    height:30em;
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+    margin:0 auto;
+    padding:2em;
+}
+
+.half{
+    max-width: 70em;
+    min-width: 30em;
+}
+
+.container > h1{
+    text-align: center;
+}
