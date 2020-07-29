@@ -1,17 +1,11 @@
 //github.com/reaganiwadha
 
-let data
-
 fetch('https://api.covid19api.com/total/country/indonesia/status/confirmed')
     .then(res => res.json())
     .then(data => {
-        data = data[data.length - 1]
-        updateData(data)
+        let lastData = data[data.length - 1]
+        updateData(lastData)
     })
-
-// setInterval(function(){
-    
-// }, 10000)
 
 function updateData(data){
     document.querySelector('#number').innerHTML = data.Cases.toLocaleString() + " Kasus"
